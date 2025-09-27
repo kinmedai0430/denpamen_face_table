@@ -22,20 +22,20 @@
             border: 1px solid #ccc;
             border-radius: 8px;
             margin-bottom: 20px;
-            padding: 0; /* paddingを削除して、summary全体がクリック可能に */
+            padding: 0; 
         }
 
         summary.header {
             display: flex;
-            justify-content: flex-start; /* 左寄せに変更 */
+            justify-content: flex-start; 
             align-items: center;
             cursor: pointer;
-            list-style: none; /* デフォルトの矢印を非表示 */
-            padding: 20px; /* summaryにpaddingを追加 */
+            list-style: none; 
+            padding: 20px; 
         }
         
         summary.header::-webkit-details-marker {
-            display: none; /* WebKitブラウザ向けの非表示 */
+            display: none; 
         }
 
         summary.header::before {
@@ -54,7 +54,6 @@
             font-size: 1.2em;
         }
         
-        /* grid-containerにpaddingを追加して元のレイアウトを維持 */
         .selector-container .grid-container {
             padding: 0 20px 20px 20px;
             display: grid;
@@ -104,7 +103,7 @@
             top: -15px;
         }
 
-        /* 髪の色の指定 (画像) */
+        /* パーツ画像 */
         #kami-iro .box-0 { background-image: url('髪色画像/0.png'); }
         #kami-iro .box-1 { background-image: url('髪色画像/1.png'); }
         #kami-iro .box-2 { background-image: url('髪色画像/2.png'); }
@@ -118,7 +117,6 @@
         #kami-iro .box-10 { background-image: url('髪色画像/10.png'); }
         #kami-iro .box-11 { background-image: url('髪色画像/11.png'); }
 
-        /* 肌の色の指定 (画像) */
         #hada-iro .box-0 { background-image: url('肌色画像/0.png'); }
         #hada-iro .box-1 { background-image: url('肌色画像/1.png'); }
         #hada-iro .box-2 { background-image: url('肌色画像/2.png'); }
@@ -131,7 +129,6 @@
         #hada-iro .box-9 { background-image: url('肌色画像/9.png'); }
         #hada-iro .box-10 { background-image: url('肌色画像/10.png'); }
 
-        /* 髪の輪郭画像の指定 */
         #kami-rinkaku .box-0 { background-image: url('髪・輪郭画像/0.png'); }
         #kami-rinkaku .box-1 { background-image: url('髪・輪郭画像/1.png'); }
         #kami-rinkaku .box-2 { background-image: url('髪・輪郭画像/2.png'); }
@@ -228,7 +225,6 @@
         #kami-rinkaku .box-93 { background-image: url('髪・輪郭画像/93.png'); }
         #kami-rinkaku .box-94 { background-image: url('髪・輪郭画像/94.png'); }
         
-        /* 新たな項目の画像指定 */
         #me .box-0 { background-image: url('目画像/0.png'); }
         #me .box-1 { background-image: url('目画像/1.png'); }
         #me .box-2 { background-image: url('目画像/2.png'); }
@@ -887,4 +883,5 @@
     </details>
 
 </body>
+
 </html>
